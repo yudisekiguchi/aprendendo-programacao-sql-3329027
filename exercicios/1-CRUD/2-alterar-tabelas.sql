@@ -2,3 +2,5 @@
 ALTER TABLE salario_classe
 ADD nivel VARCHAR(50);
 -- Na tabela employees, adicione uma coluna para receber o id_salario
+ALTER TABLE employees
+ADD id_salario INT;
